@@ -1,0 +1,6 @@
+config THUNDERPLUG_CONTROL
+	bool "CPU Hotplug - ThunderPlug"
+	default n
+	help
+	  This driver uses powersuspend to take down the cpu cores
+	  on a octa core device.

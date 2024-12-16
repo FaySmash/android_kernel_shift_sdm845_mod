@@ -1,0 +1,5 @@
+config MAKO_HOTPLUG
+    bool "CPU Hotplug - Mako"
+    default n
+    help
+      Mako Hotplug: A custom hotplug by fransico franco

@@ -1,0 +1,6 @@
+config INTELLI_PLUG
+	   bool "CPU Hotplug - IntelliPlug"
+	   depends on MSM_RUN_QUEUE_STATS
+	   default n
+	   help
+		 This enables kernel based multi core control.

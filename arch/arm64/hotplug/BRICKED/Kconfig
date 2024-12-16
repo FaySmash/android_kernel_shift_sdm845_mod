@@ -1,0 +1,6 @@
+config BRICKED_HOTPLUG
+	bool "CPU Hotplug - Bricked"
+	depends on MSM_RUN_QUEUE_STATS
+	default n
+	help
+	 This enables kernel based multi core control based on mpdecison.
